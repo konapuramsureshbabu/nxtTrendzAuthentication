@@ -1,0 +1,35 @@
+.nav-header {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.website-logo {
+  width: 250px;
+  height: 100px;
+  align-self: flex-start;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+.nav-link {
+  margin-right: 20px;
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.logout-desktop-btn {
+  background-color: blue;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
